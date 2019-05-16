@@ -1,18 +1,37 @@
+body {
+
+}
 header {
     background:white;
 }
 
-h1 {
+h2 {
     background:#4aaaa5;
     color:white;
+    margin:0 0 0 50;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    color:#4aaaa5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
 }
 
 h3 {
     color:#777777;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 img {
     width: 200px;
     height: 200px;
     transform: rotate(90deg);
+    float:left;
+}
+
+.main-content {
+    width:960px;
+    text-align:center;
 }
