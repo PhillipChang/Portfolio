@@ -135,3 +135,49 @@ p {
 
 
 /* Contact Page */
+
+form {
+    text-align:left;
+    overflow:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+input[type=text] {
+    margin-top:10px;
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+input[type=email] {
+    width:100%;
+    margin-top:10px;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+input[type=message] {
+    width:100%;
+    margin-top:10px;
+    height:200px;
+    padding:10px;
+    box-sizing:border-box;
+    }
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    border:none;
+    text-align:center;
+    padding:15px;
+    width:15%;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14px;
+}
+
+input[type=submit]:hover {
+    cursor:pointer;
+    background-color:lightgray;
+}
