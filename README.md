@@ -1,10 +1,10 @@
 # Basic-Portfolio
 
-! [Index Page Screenshot](index-page.png)
+![Index Page Screenshot](assets/images/index-page.png)
 
-! [Portfolio Page Screenshot](portfolio-page.png)
+![Portfolio Page Screenshot](assets/images/portfolio-page.png)
 
-! [Contact Page Screenshot](contact-page.png)
+![Contact Page Screenshot](assets/images/contact-page.png)
 
 
 ### Description
