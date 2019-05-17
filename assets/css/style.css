@@ -108,50 +108,58 @@ p {
 .hangman {
     float:left;
     margin-left:0;
+    position:relative;
+    margin-bottom:2%;
 }
 
 .rpg {
     clear:both;
-    position:absolute;
+    position:relative;
     margin-top:0%;
-    margin-left:11%;
+    float:left;
+    margin-left:20%;
+    margin-top:-13.25%;
 }
 
 .trivia {
     clear:both;
     float:left;
-    margin-top:2.75%;
+    margin-top:0;
+    margin-bottom:10px;
+    position:relative;
 }
 
 .rutger {
     clear:both;
-    position:absolute;
-    margin-top:8.35%;
-    margin-left:11%;
+    position:relative;
+    float:left;
+    margin-left:20%;
+    margin-top:-12.5%;
 }
 
 .rps {
     clear:both;
+    position:relative;
     float:left;
-    overflow:auto;
 }
 
 .label-1 {
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
-    margin-top:-2.5%;
-    width:auto;
+    margin-top:-20.95%;
+    width:100%;
     position:absolute;
+    z-index:1;
 }
 
 .label-2 {
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
-    margin-top:-25%;
-    margin-left:5%;
+    margin-top:-23.85%;
     position:absolute;
+    width:100%;
 }
 
 
