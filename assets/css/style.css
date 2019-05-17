@@ -1,8 +1,17 @@
 body {
 margin:0;
+display:block;
+background-image:url(../Images/rustic-paper.jpg);
+position:relative;
+max-width: 960px;
+height:1000px;
 }
+
 header {
     background:white;
+    margin:0 auto;
+    width:20%;
+    padding:20px;
 }
 
 h2 {
@@ -17,23 +26,30 @@ h1 {
     color:#4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align:left;
+    float:left;
 }
 
-h3 {
+nav {
     color:#777777;
     font-family:Arial, Helvetica, sans-serif;
+    position:fixed;
+    float:right;
+    margin-right:20px;
 }
 
-img {
+#profile-pic {
     width: 200px;
     height: 200px;
     transform: rotate(90deg);
     float:left;
+    display:block;
 }
 
-.main-content {
+main {
     width:960px;
     text-align:center;
+    margin: 0 auto;
+    padding:50px;
 }
 
 footer {
