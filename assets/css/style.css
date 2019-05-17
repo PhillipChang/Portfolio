@@ -100,8 +100,38 @@ p {
 
 /* Portfolio Page */
 
+img {
+    height: 150px;
+    width:150px;
+}
 
+.hangman {
+    float:left;
+}
 
+.rpg {
+    float:right;
+}
+
+.trivia {
+    clear:both;
+    float:left;
+}
+
+.rutger {
+    clear:both;
+    float:right;
+}
+
+.rps {
+    clear:both;
+    float:left;
+}
+
+p {
+    background-color:#4aaaa5;
+    color:#ffffff;
+}
 
 
 /* Contact Page */
