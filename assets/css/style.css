@@ -17,16 +17,6 @@ header {
     border-bottom:2px;
 }
 
-h2 {
-    background:#4aaaa5;
-    color:white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    width:20%;
-    text-align:center;
-    padding:20px;
-    margin-left:18.88%;
-}
-
 h1 {
     color:#4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -55,17 +45,6 @@ a:focus {
     color:red;
 }
 
-/* main {
-    width:960px;
-    text-align:center;
-    margin:10px auto;
-    padding:25px;
-    background-color:#ffffff;
-    height:55%;
-    border-color:#dddddd;
-    overflow:auto;
-} */
-
 footer {
     position:fixed;
     background:#666666;
@@ -82,7 +61,9 @@ footer {
 
 /* Index Page */
 
-
+.about {
+    display:none;
+}
 p {
     text-align:justify;
     line-height: 2;
@@ -98,72 +79,15 @@ p {
 }
 
 /* Portfolio Page */
-
-.size {
-    height:100px;
-    width:150px;
-}
-.hangman {
-    float:left;
-    margin-left:0;
-    position:relative;
-    margin-bottom:2%;
-}
-
-.rpg {
-    clear:both;
-    position:relative;
-    margin-top:0%;
-    float:left;
-    margin-left:20%;
-    margin-top:-13.25%;
-}
-
-.trivia {
-    clear:both;
-    float:left;
-    margin-top:0;
-    margin-bottom:10px;
-    position:relative;
-}
-
-.rutger {
-    clear:both;
-    position:relative;
-    float:left;
-    margin-left:20%;
-    margin-top:-12.5%;
-}
-
-.rps {
-    clear:both;
-    position:relative;
-    float:left;
-}
-
-.label-1 {
-    background-color:#4aaaa5;
-    color:#ffffff;
-    text-align:center;
-    margin-top:-20.95%;
-    width:100%;
-    position:absolute;
-    z-index:1;
-}
-
-.label-2 {
-    background-color:#4aaaa5;
-    color:#ffffff;
-    text-align:center;
-    margin-top:-23.85%;
-    position:absolute;
-    width:100%;
+.portfolio{
 }
 
 
 /* Contact Page */
-
-form {
+.contact{
+    display:none;
+}
+/* form {
     text-align:left;
     overflow:auto;
     font-family:Arial, Helvetica, sans-serif;
@@ -207,4 +131,4 @@ input[type=submit] {
 input[type=submit]:hover {
     cursor:pointer;
     background-color:lightgray;
-}
+} */
