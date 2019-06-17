@@ -8,52 +8,75 @@
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Phillip Chang's Portfolio</title>
 
     
 </head>
 <body>
-    
-  <nav>
-        <div class="nav-wrapper blue-grey col s12">
-          <a href="index.html" class="name blue-grey">Phillip Chang</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+        <nav>
+                <div class="nav-wrapper blue-grey">
+                    <div class="container">
+                  <a href="index.html" class="name light-grey">Phillip Chang</a>
+
+                  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>    
+
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+                </div>
+              </nav>
+              <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                      <div class="background">
+                        <img src="#">
+                      </div>
+                      <a href="#user"><img class="circle" src="assets/Images/profile-pic.jpg"></a>
+                      <a href="#name"><span class="white-text name">Phillip Chang</span></a>
+                      <a href="#email"><span class="white-text email">phillip-chang@live.com</span></a>
+                    </div></li>
+                    <li><a href="index.html"><i class="material-icons">developer_mode</i>GitHub</a></li>
+                    <li><a href="portfolio.html"><i class="material-icons">folder</i>Portfolio</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="waves-effect" href="contact.html"><i class="material-icons">contact_mail</i>Contact</a></li>
+                  </ul>
+
+    <div class="container">
+            <main>
+                <h1>About Me</h1>
+                <hr>
+                <br>
+                        <img id="profile-pic" class="responsive-img" src="assets/Images/profile-pic.jpg" alt="Profile Picture">
+                
+                <p>My name is Philip Chang. I was born and raised in a small town called Dangriga
+                    in Belize. Belize is located just south of the Mexico's Yucatan Peninsula,
+                    and North of Honduras. This strip that is connecting North America and South America
+                    is also referred to as Central America.
+                </p>
         
-    
-    <main>
-        <h1>About Me</h1>
-        <hr>
-        <br>
-
-        <img id="profile-pic" src="assets/Images/profile-pic.jpg" alt="Profile Picture">
-
-        <p>My name is Philip Chang. I was born and raised in a small town called Dangriga
-            in Belize. Belize is located just south of the Mexico's Yucatan Peninsula,
-            and North of Honduras. This strip that is connecting North America and South America
-            is also referred to as Central America.
-        </p>
-
-        <p>The population in Belize is ~400,000 with my town's population accounting for ~10,000.
-            Belize is considered a third world country but with heavy British and American influence
-            that shaped the culture of the people. 
-        </p>
-
-    </main>
-
-    <Footer class="col s12">Copyright&#169;</Footer>
-    
+                <p>I studied at San Francisco State University for both my undergrad and graduate degree in Finance and Accounting, respectively.
+                    I decided to pursue a career in coding because I want to be a part of all of the technological advancements in today's society.
+                </p>
+                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="phillipchang1"><a class="LI-simple-link" href='https://www.linkedin.com/in/phillipchang1?trk=profile-badge'>LinkedIn</a></div>
+            </main>
+    </div>   
+        
+            <Footer class="col s12">Copyright&#169;</Footer>
+          
+<!-- LinkedIn  -->
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<script src="assets/javascript/app.js"></script>
 </body>
 </html>

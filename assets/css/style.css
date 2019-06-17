@@ -90,12 +90,11 @@ p {
 }
 
 #profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 20%;
     transform: rotate(90deg);
-    float:left;
+    /* float:left;
     display:block;
-    margin:15px;
+    margin:15px; */
 }
 
 /* Portfolio Page */
