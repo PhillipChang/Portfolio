@@ -3,16 +3,16 @@
 [Phillip Chang Webpage](https://phillipchang.github.io/Basic-Portfolio)
 
 ### Transition Page
-![Transition](assets/Images/transition.gif)
+![Transition](assets/images/transition.gif)
 
 ### About Page
-![Index Page Screenshot](assets/Images/index-page.PNG)
+![Index Page Screenshot](assets/images/index-page.PNG)
 
 ### Portfolio Page
-![Portfolio Page Screenshot](assets/Images/portfolio-page.PNG)
+![Portfolio Page Screenshot](assets/images/portfolio-page.PNG)
 
 ### Contact Page
-![Contact Page Screenshot](assets/Images/contact-page.PNG)
+![Contact Page Screenshot](assets/images/contact-page.PNG)
 
 
 ### Description
