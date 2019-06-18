@@ -3,7 +3,7 @@
     box-sizing:border-box;
 }
 body {
-background-image:url(../Images/background.png);
+/* background-image:url(../Images/background.png); */
 background-size:cover;
 height:100vh;
 }
@@ -135,7 +135,10 @@ input[type=submit]:hover {
     cursor:pointer;
     background-color:lightgray;
 } */
-
+.color {
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+  }
 .div {
     height:100vh;
   }

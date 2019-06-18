@@ -1,12 +1,3 @@
-$(document).ready(function(){
-    $(".sidenav").sidenav();
-    $('.carousel.carousel-slider').carousel({
-      fullWidth: true,
-      fullHeight:true,
-      indicators: true
-    });
-  });
-
   $("#about").on("click", loadAbout);
   $("#portfolio").on("click", loadPortfolio);
   $("#contact").on("click", loadContact);
@@ -30,6 +21,52 @@ function loadContact(){
     $(".portfolio").delay(1000).fadeOut();
     $(".contact").delay(2000).fadeIn();
   }
+
+  // Dynamically Creating Bars for Anime.js animation
+  function funBackground(){
+    $("body").addClass('uk-animation-fade');
+    $("body").css("background", "url('assets/images/background.png')");
+    }
+    function loadMain(){
+    $("#intro").addClass('animated lightSpeedOut delay-1s').delay(2500).fadeOut();
+    setTimeout(funBackground,3000);
+    $(".main-web").delay(3000).fadeIn();
+    }
+    
+    $(document).ready(function(){
+    setTimeout(loadMain,10000);
+    $(".sidenav").sidenav();
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      fullHeight:true,
+      indicators: true
+    });
+    });
+
+    function gradientChange(){
+      for(i=0; i<10; i++){
+      var newDiv = $("<div>");
+      newDiv.addClass('div');
+      newDiv.addClass('c'+i);
+      $(".color").append(newDiv);
+    }
+    }
+    gradientChange();
+    
+    var count = 0;
+    var step = 1;
+    
+    //   Change Color to create a gradient wave flow of colors
+    function dynoColor(){
+      for(i=0; i<10; i++){
+        var red = 25*i + count;
+        var green = 25*i + count;
+        var blue = 25 * i + count;
+        $(".c"+i).css("backgroundColor", "rgb(" + red + "," + green + "," + blue + ")");
+      }
+      count=count+step*1.5;
+    }
+    var dyno = setInterval(dynoColor,150);
 
     // Anime.js Animations
     var tl = anime.timeline({
@@ -66,6 +103,7 @@ function loadContact(){
       targets: '#line-1, #line-2, #line-3, #line-4, #line-5,#line-6,#line-7,#line-8,#line-9',
       top:'20%',
       opacity: 1,
-      delay:anime.stagger(500)
+      delay:anime.stagger(200)
     })
   }
+
