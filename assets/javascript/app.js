@@ -10,6 +10,7 @@ $(document).ready(function(){
 
 // ***Transition Pages***
 function loadAbout(){
+  $(".portfolio").css("display","none");
   $(".portfolio").delay(1000).fadeOut();
   $(".contact").delay(1000).fadeOut();
   $(".about").delay(1500).fadeIn();
