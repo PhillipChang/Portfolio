@@ -25,3 +25,5 @@ function loadContact(){
     $(".portfolio").delay(1000).fadeOut();
     $(".contact").delay(2000).fadeIn();
   }
+
+  

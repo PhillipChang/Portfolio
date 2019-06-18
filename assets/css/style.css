@@ -7,7 +7,10 @@ background-image:url(../Images/background.png);
 background-size:cover;
 height:100vh;
 }
-
+.name{
+    font-family: 'Crete Round', serif;
+    font-size: 2em;
+}
 header {
     background:#ffffff;
     width:100%;
@@ -17,26 +20,15 @@ header {
     border-bottom:2px;
 }
 
-
-/* nav {
-    color:#777777;
-    font-family:Arial, Helvetica, sans-serif;
-    position:absolute;
-    top:20px;
-    right:19%;
-    opacity: 0.8;
-    text-align:right;
-} */
-
 a {
     color:#777777;
 }
 a:hover {
-    color:blue;
+    color:black;
 }
 
 a:focus {
-    color:red;
+    color: burlywood;
 }
 
 footer {
@@ -49,8 +41,9 @@ footer {
     color:#ffffff;
     width:100%;
 }
-
-
+.sprofile-pic{
+    transform:rotate(90deg);
+}
 
 
 /* Index Page */
@@ -69,7 +62,7 @@ h1{
     font-size:0.5em;
     padding-top:3%;
     padding-left:3%;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
