@@ -7,6 +7,9 @@ background-image:url(../Images/background.png);
 background-size:cover;
 height:100vh;
 }
+.main-web{
+    display:none;
+}
 .name{
     font-family: 'Crete Round', serif;
     font-size: 2em;
@@ -132,3 +135,44 @@ input[type=submit]:hover {
     cursor:pointer;
     background-color:lightgray;
 } */
+
+.div {
+    height:100vh;
+  }
+  #line-0,#line-1, #line-2, #line-3, #line-4, #line-5,#line-6,#line-7,#line-8,#line-9 {
+    font-size: 5em;
+    position: absolute;
+    top: 18%;
+    opacity: 0;
+    z-index: 2;
+  }
+#line-0{
+  left: 112px;
+}
+  #line-1 {
+    left: 190px;
+  }
+  #line-2 {
+    left: 224px;
+  }
+  #line-3 {
+    left: 261px;
+  }
+  #line-4 {
+    left: 288px;
+  }
+  #line-5 {
+    left: 314px;
+  }
+  #line-6 {
+    left: 334px;
+  }
+  #line-7 {
+    left: 373px;
+  }
+  #line-8 {
+    left: 385px;
+  }
+  #line-9 {
+    left: 399px;
+  }
