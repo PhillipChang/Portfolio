@@ -25,7 +25,7 @@ function loadContact(){
   // Dynamically Creating Bars for Anime.js animation
   function funBackground(){
     $("body").addClass('uk-animation-fade');
-    $("body").css("background", "url('assets/Images/background.png')");
+    $("body").css("background", "url('assets/Images/background.PNG')");
     }
     function loadMain(){
     $("#intro").addClass('animated lightSpeedOut delay-1s').delay(2500).fadeOut();
