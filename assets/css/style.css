@@ -66,11 +66,22 @@ footer {
     background-color:slategray;
     opacity: 0.75;
     color:white;
+    margin-top:23%;
 }
+h1{
+    color:whitesmoke;
+    font-size:0.5em;
+    font-weight: bold;
+    padding-top:3%;
+    padding-left:3%;
+}
+
 #para {
     line-height: 2;
     font-family:Arial, Helvetica, sans-serif;
     font-size:1em;
+    font-family: 'Merriweather', serif;
+
 }
 
 #profile-pic {
