@@ -17,12 +17,6 @@ header {
     border-bottom:2px;
 }
 
-h1 {
-    color:#4aaaa5;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align:left;
-    font-weight:bolder;
-}
 
 /* nav {
     color:#777777;
@@ -69,11 +63,14 @@ footer {
     margin-top:23%;
 }
 h1{
+    text-align:left;
+    font-weight:bolder;
     color:whitesmoke;
     font-size:0.5em;
-    font-weight: bold;
     padding-top:3%;
     padding-left:3%;
+    font-family: 'Anton', sans-serif;
+
 }
 
 #para {
