@@ -79,19 +79,20 @@ h1{
     transform: rotate(90deg);
     margin-bottom: 27%;
     margin-top: 15%;
-    /* float:left;
-    display:block;
-    margin:15px; */
 }
 
 /* Portfolio Page */
-.portfolio{
-}
+
 
 
 /* Contact Page */
 .contact{
     display:none;
+}
+.contact-row{
+    margin-top:28%;
+    text-align: center;
+    color: white;
 }
 /* form {
     text-align:left;
