@@ -11,15 +11,6 @@ height:100vh;
     font-family: 'Crete Round', serif;
     font-size: 2em;
 }
-header {
-    background:#ffffff;
-    width:100%;
-    top:0px;
-    margin-top:-1.5%;
-    border-color:#cccccc;
-    border-bottom:2px;
-}
-
 a {
     color:#777777;
 }
@@ -53,13 +44,13 @@ footer {
     background-color:slategray;
     opacity: 0.75;
     color:white;
-    margin-top:23%;
+    margin-top:6%;
 }
-h1{
+h3{
     text-align:left;
     font-weight:bolder;
     color:whitesmoke;
-    font-size:0.5em;
+    font-size:3.2rem;
     padding-top:3%;
     padding-left:3%;
     font-family: 'Times New Roman', Times, serif;
@@ -82,7 +73,9 @@ h1{
 }
 
 /* Portfolio Page */
-
+.carousel{
+        height: 100vh;
+}
 
 
 /* Contact Page */
@@ -90,7 +83,7 @@ h1{
     display:none;
 }
 .contact-row{
-    margin-top:28%;
+    margin-top:18%;
     text-align: center;
     color: white;
 }
