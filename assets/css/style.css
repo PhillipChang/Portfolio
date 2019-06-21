@@ -80,6 +80,15 @@ h3{
         height: 100vh;
 }
 
+/* .card {
+  width: 25%;
+  height: 25%;
+}
+.cards {
+  display:flex;
+  flex-direction: column;
+} */
+
 
 /* Contact Page */
 .contact{

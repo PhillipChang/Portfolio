@@ -2,6 +2,9 @@
   $("#portfolio").on("click", loadPortfolio);
   $("#contact").on("click", loadContact);
 
+  $("#port").on("click", loadPortfolio);
+  $("#cont").on("click", loadContact);
+
 // ***Transition Pages***
 function loadAbout(){
   $(".portfolio").css("display","none");
