@@ -1,11 +1,17 @@
 /* Shared CSS Codes */
-*{
+/* *{
     box-sizing:border-box;
+} */
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* background-size: cover; */
 }
 body {
 /* background-image:url(../Images/background.png); */
-background-size:cover;
-height:100vh;
+/* background-size:cover; */
+/* height:100vh; */
 }
 .main-web{
     display:none;
