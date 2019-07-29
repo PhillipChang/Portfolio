@@ -1,18 +1,9 @@
-/* Shared CSS Codes */
-/* *{
-    box-sizing:border-box;
-} */
 html { 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  /* background-size: cover; */
 }
-body {
-/* background-image:url(../Images/background.png); */
-/* background-size:cover; */
-/* height:100vh; */
-}
+
 .main-web{
     display:none;
 }
@@ -82,19 +73,21 @@ h3{
 }
 
 /* Portfolio Page */
-.carousel{
-        height: 100vh;
+.portfolio {
+  width
 }
-
-/* .card {
-  width: 25%;
-  height: 25%;
-}
-.cards {
+.portfolio-cards{
   display:flex;
-  flex-direction: column;
-} */
+  flex-flow:row wrap;
+  padding-top: 2%;
+  background:none;
+  padding-left:0%;
+  padding-right:0%;
+  justify-content: space-around;
+  align-content: flex-start;
+}
 
+}
 
 /* Contact Page */
 .contact{
@@ -104,6 +97,7 @@ h3{
     margin-top:3%;
     text-align: center;
     color: white;
+    width:35%;
 }
 
 .color {
@@ -113,7 +107,7 @@ h3{
 .div {
     height:100vh;
   }
-  #line-0,#line-1, #line-2, #line-3, #line-4, #line-5,#line-6,#line-7,#line-8,#line-9 {
+  #line-0,#line-1 {
     font-size: 5em;
     position: absolute;
     top: 18%;
@@ -125,28 +119,4 @@ h3{
 }
   #line-1 {
     left: 190px;
-  }
-  #line-2 {
-    left: 224px;
-  }
-  #line-3 {
-    left: 261px;
-  }
-  #line-4 {
-    left: 288px;
-  }
-  #line-5 {
-    left: 314px;
-  }
-  #line-6 {
-    left: 334px;
-  }
-  #line-7 {
-    left: 373px;
-  }
-  #line-8 {
-    left: 385px;
-  }
-  #line-9 {
-    left: 399px;
   }
