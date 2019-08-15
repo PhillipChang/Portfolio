@@ -1,6 +1,6 @@
 # Basic-Portfolio
 
-[Phillip Chang Webpage](https://phillipchang.github.io/Basic-Portfolio)
+[Phillip Chang Webpage](https://phillipchang.github.io/Portfolio)
 
 ### Transition Page
 ![Transition](assets/images/transition.gif)
