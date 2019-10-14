@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/9210a6e6ef.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Crete+Round|Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/Images/favicon.png">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- UI Kit -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css" />
+
+    <title>Phillip Chang Portfolio</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="uk-navbar-container uk-margin uk-light" uk-navbar="mode: click">
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="/about" id="about">About</a></li>
+                    <li>
+                        <a href="#" class="uk-active">Portfolio</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav" id="drop-nav">
+                                <a href="/portfolio" id="portfolio">Projects</a>
+                                <a href="assets/resume.pdf" id="resume">Resume</a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/contact" class="uk-active" id="contact">Contact</a></li>
+                </ul>
+                </div>
+            </nav>
+
+    <!-- Contact Page -->
+    <main class="contact">              
+        <h2 id="contact-head">
+        <span>
+            <a href="mailto:phillip-chang@live.com?subject=Hello there"><i class="far fa-envelope" id="port-icon"></i></a>
+        </span>
+        CONTACT
+    </h2>
+    <hr id="contact-line">
+    <form class="uk-form-stacked" id="form">
+            <p id="contact-body">If you have a project or would just like to say Hello!, Feel free to fill out the form below or send me an message on LinkedIn <a href="mailto:phillip-chang@live.com?subject=Hello there">phillip-chang@live.com</a></p>
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-text">Full Name *</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input name" id="form-stacked-text name" type="text" placeholder="John Doe">
+                    </div>
+                </div>          
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-email">Email Address *</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input email" id="form-stacked-email" type="email" placeholder="example@example.com">
+                    </div>
+                </div>          
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-text">Subject *</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input subject" id="form-stacked-text subject" type="text" placeholder="Subject">
+                    </div>
+                </div>          
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-text">Message *</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-form-width-medium uk-form-large message" id="form-stacked-text message" type="text" placeholder="Message">
+                    </div>
+                </div>   
+                <button class="uk-button uk-button-default" id="submit">Submit</button>                
+            </form>
+
+        </main>
+    </div>
+        <div id="main-footer">
+            <p id="main-icon">
+            <a href="https://www.linkedin.com/in/phillipchang1/"><i class="fab fa-linkedin"
+                id="intro-footer-icon"></i></a>
+            <a href="https://github.com/PhillipChang"><i class="fab fa-github" id="intro-footer-icon"></i></a>
+            <a href="mailto:phillip-chang@live.com?subject=Hello there"><i class="far fa-envelope"
+                id="intro-footer-icon"></i></a>
+            <br><br><span id="main-copy">© 2019 All Rights Reserved. PC Photography ~ Dangriga Town, Belize</span>
+            </p>
+        </div>
+
+        <div id="modal-close-default" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <h2 class="uk-modal-title">You have not filled out all the required fields!</h2>
+                </div>
+            </div>
+
+    <!-- Javascript -->
+    <script src="../assets/javascript/app.js"></script>
+    
+    <!-- LinkedIn  -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <!-- UI KIT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
+
+
+
+
+
+</body>
+</html>

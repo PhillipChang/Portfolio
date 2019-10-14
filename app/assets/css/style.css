@@ -1,0 +1,347 @@
+html { 
+background: url("../images/background.jpg") no-repeat fixed !important;
+-webkit-background-size: cover !important;
+-moz-background-size: cover !important;
+-o-background-size: cover !important;
+background-size: cover !important;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.main-web{
+    display:none;
+}
+
+.name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+}
+a {
+    color:#777777;
+} 
+a:hover {
+    color:black;
+}
+
+a:focus {
+    color: burlywood;
+}
+
+
+.uk-navbar-container {
+    background:transparent !important;
+    box-shadow: none !important;
+}
+
+.uk-active {
+    color:white !important;
+}
+
+.uk-navbar-dropdown{
+    background:linear-gradient(45deg,black,transparent) !important;
+}
+
+#portfolio:hover, #resume:hover {
+    background: linear-gradient(90deg,black,transparent) !important;
+    opacity:0.85;
+    color:white;
+}
+
+#main-footer {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#main-icon {
+    margin-top:7%;
+    text-align: center;
+ }
+
+ #main-copy {
+    font-size:10px;
+    color:white;
+ }
+
+/* Intro Page */
+
+#intro {
+    display:none;
+    position:relative;
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    width:100%;
+    height:100%;
+    text-align: center;
+    padding:2%;
+}
+
+
+#name-head {
+    text-align: center;
+    top:0;
+    color:white;
+}
+
+#intro-head {
+    color:white;
+    padding-top:16%;
+    font-size:80px;
+    margin-bottom:4%;
+    letter-spacing: .5em;
+}
+
+#intro-enter {
+    margin:0 auto;
+    border:solid 2px white;
+    width: 7%;
+    border-radius: 999px;
+    padding:8px;
+    font-size:20px;
+    background-color: transparent;
+    transition:color 170ms ease-in-out, border-color 170ms ease-in-out;
+}
+
+#intro-enter:hover {
+    border:solid 2px white;
+    background-color: #ffffff;
+    color:black
+}
+
+#intro-icon {
+   margin-top:10%;
+}
+
+#intro-copy {
+    font-size:10px;
+ }
+
+#intro-footer-icon {
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding:6px;
+    height:35px;
+    width: 35px;
+}
+#intro-footer-icon:hover {
+    color: black;
+    border: 3px solid white;
+    background-color:white;
+    box-shadow: 2px black;
+    border-radius: 50%;
+    padding:6px;
+    height:35px;
+    width: 35px;
+}
+#intro-footer {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+
+/* Index Page */
+
+.about {
+    /* display:none; */
+    color:white;
+    margin-top:19%;
+}
+
+#about-body {
+    padding:30px;
+    padding-top:50px;
+    /* background-color:slategray; */
+    opacity: 0.85;
+    background: -webkit-linear-gradient(25deg,black,transparent); /* For Safari */
+    background: -o-linear-gradient(25deg,black,transparent); /* For Opera */
+    background: -moz-linear-gradient(25deg,black,transparent); /* For Firefox */
+    background: linear-gradient(25deg,black,transparent); 
+}
+
+#para {
+    line-height: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1em;
+}
+
+#profile-pic {
+    width: 45%;
+    transform: rotate(90deg);
+    border: none white 1px;
+    border-radius: 25%;
+    float:left;
+}
+
+/* Portfolio Page */
+
+
+#portfolio-head, #contact-head {
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top:3%;
+    letter-spacing: .5em;
+}
+
+#port-icon {
+    color: white;
+    border-radius: 50%;
+    padding:0px;
+    height:30px;
+    width: 30px;
+    margin-right:20px;
+}
+
+#line {
+    margin-right:auto;
+    margin-left:auto;
+    width:35%;
+}
+
+#port-icon:hover {
+    color: black;
+    box-shadow: 2px black;
+    border-radius: 50%;
+    padding:0px;
+    height:30px;
+    width: 30px;
+}
+
+.portfolio-cards{
+display:flex;
+flex-flow:row wrap;
+padding-top: 2%;
+background:none;
+padding-left:0%;
+padding-right:0%;
+justify-content: space-around;
+align-content: flex-start;
+}
+
+#image {
+    object-fit: contain;
+}
+
+#title-overlay {
+    position: absolute;
+    color:white;
+    bottom:8px;
+    left:16px;
+    z-index:1;
+    font-size:larger;
+    font-weight:900;
+}
+
+#image-container {
+    position: relative;
+    text-align:center;
+    color:white;
+}
+
+
+#card {
+width:41%;
+z-index:99;
+position:relative;
+}
+
+.card-icon {
+    color:white;
+    margin-left:6px;
+}
+.card-icon:hover {
+    color:royalblue;
+    margin-left:6px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* Gradient Color */
+    background: -webkit-linear-gradient(25deg,black,transparent); /* For Safari */
+    background: -o-linear-gradient(25deg,black,transparent); /* For Opera */
+    background: -moz-linear-gradient(25deg,black,transparent); /* For Firefox */
+    background: linear-gradient(25deg,black,transparent); 
+    overflow:auto;
+  }
+
+  #card:hover .overlay {
+    opacity: 1;
+  }
+
+  #overlay-text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    color:white;
+  }
+
+  #project-description {
+      padding-left:20px;
+      padding-right:20px;
+  }
+
+
+/* Contact Page */
+
+.contact { 
+    width:50%;
+    margin-top:3%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+}
+
+#contact-line {
+    margin-right:auto;
+    margin-left:auto;
+    width:50%;
+    margin-bottom:6%;
+    margin-top:0%;
+}
+
+#contact-body {
+    color:white;
+    padding-bottom:2%;
+}
+
+#form {
+    background: -webkit-linear-gradient(45deg,black,transparent); /* For Safari */
+    background: -o-linear-gradient(45deg,black,transparent); /* For Opera */
+    background: -moz-linear-gradient(45deg,black,transparent); /* For Firefox */
+    background: linear-gradient(45deg,black,transparent); 
+    padding:5% 7% 5% 5%;
+}
+
+.uk-form-label {
+    color:white !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+#submit {
+    color:white !important;
+    background:linear-gradient(25deg,black,transparent) !important;
+}
+
+#submit:hover {
+    color:black !important;
+    background:white !important;
+    border:solid 1px black !important;
+}
+
+input {
+    color:white !important;
+}
