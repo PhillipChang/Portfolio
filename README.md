@@ -3,7 +3,7 @@
 [Phillip Chang Webpage](https://phillipchang.github.io/Portfolio)
 
 ### Website
-![Website](..assets/images/website.gif)
+![Website](app/assets/images/website.gif)
 
 
 ### Description
