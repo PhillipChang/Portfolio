@@ -1,6 +1,6 @@
 # Portfolio
 
-[Phillip Chang Webpage](https://phillipchang.github.io/Portfolio)
+[Phillip Chang Webpage](https://phillip-chang-portfolio.herokuapp.com/)
 
 ### Website
 ![Website](app/assets/images/website.gif)
