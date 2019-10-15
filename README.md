@@ -1,4 +1,4 @@
-# Basic-Portfolio
+# Portfolio
 
 [Phillip Chang Webpage](https://phillipchang.github.io/Portfolio)
 
