@@ -2,8 +2,6 @@
 
 $(document).ready(function(){
   loadIntro();
-  // UIkit.tooltip(element).show();
-  // UIkit.tooltip(element).hide();
   loadPortfolio();
   });    
 
@@ -20,26 +18,8 @@ function loadIntro(){
     
 // On-click event listeners for NavBar
 
-// $("#about").on("click", loadAbout);
 $("#portfolio").on("click", loadPortfolio);
-console.log("we clicked")
-// $("#contact").on("click", loadContact);
-
 $("#port").on("click", loadPortfolio);
-// $("#cont").on("click", loadContact);
-
-
-      
-// ***Transition Pages***
-
-// *** About Page ***
-// function loadAbout(){
-//   $(".portfolio").css("display","none");
-//   $(".portfolio").delay(1000).fadeOut();
-//   $(".contact").delay(1000).fadeOut();
-//   $(".about").addClass("animated lightSpeedIn delay-1s");
-//   $(".about").delay(1500).fadeIn();
-// }  
 
 // *** Portfolio Page ***
 
@@ -159,16 +139,16 @@ function loadContact(){
 
   $("#submit").on("click", function(event) {
   event.preventDefault();
-  console.log("click workd")
+  $("#submit").hide('slow');
   var check = true;
   
   // Form Validation
   if (
-      $(".name").val() === undefined || $(".email").val() === "" || $(".subject").val() === ""|| $(".message").val() === "")
+      $(".name").val() === "" || $(".email").val() === "" || $(".subject").val() === ""|| $(".message").val() === "")
       {
       check = false;
       }
-  else if (check == true) {
+  if (check == true) {
           var userInput = {
               name: $(".name").val(),
               email: $(".email").val(),
@@ -177,16 +157,13 @@ function loadContact(){
               };
           console.log(userInput);
           $.post("/api/email", userInput,function(data){
-              $("#name").text(data.name);
-              $("#email").text(data.email);
-              $("#subject").text(data.subject);
-              $("#message").text(data.message);
+            UIkit.modal.confirm(`${data.message}`)
           });
       }
   else {
-      UIkit.modal.confirm('UIkit confirm!')
-      alert("not all fields filled out");
-  }
+      UIkit.modal.confirm('You have not filled out all required fields!')
+      $("#submit").show('slow');
+      }
   });
 
 

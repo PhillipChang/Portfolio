@@ -157,10 +157,10 @@ a:focus {
     padding-top:50px;
     /* background-color:slategray; */
     opacity: 0.85;
-    background: -webkit-linear-gradient(25deg,black,transparent); /* For Safari */
-    background: -o-linear-gradient(25deg,black,transparent); /* For Opera */
-    background: -moz-linear-gradient(25deg,black,transparent); /* For Firefox */
-    background: linear-gradient(25deg,black,transparent); 
+    background: -webkit-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Safari */
+    background: -o-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Opera */
+    background: -moz-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Firefox */
+    background: radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); 
 }
 
 #para {
@@ -270,10 +270,10 @@ position:relative;
     opacity: 0;
     transition: .5s ease;
     /* Gradient Color */
-    background: -webkit-linear-gradient(25deg,black,transparent); /* For Safari */
-    background: -o-linear-gradient(25deg,black,transparent); /* For Opera */
-    background: -moz-linear-gradient(25deg,black,transparent); /* For Firefox */
-    background: linear-gradient(25deg,black,transparent); 
+    background: -webkit-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Safari */
+    background: -o-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Opera */
+    background: -moz-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Firefox */
+    background: radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); 
     overflow:auto;
   }
 
@@ -319,11 +319,17 @@ position:relative;
 }
 
 #form {
-    background: -webkit-linear-gradient(45deg,black,transparent); /* For Safari */
-    background: -o-linear-gradient(45deg,black,transparent); /* For Opera */
-    background: -moz-linear-gradient(45deg,black,transparent); /* For Firefox */
-    background: linear-gradient(45deg,black,transparent); 
+    background: -webkit-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Safari */
+    background: -o-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Opera */
+    background: -moz-radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent); /* For Firefox */
+    background: radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent);
     padding:5% 7% 5% 5%;
+}
+
+#message {
+  background: radial-gradient(ellipse at top, black, transparent),radial-gradient(ellipse at bottom, slategrey, transparent) !important; 
+  color:white !important;
+
 }
 
 .uk-form-label {
@@ -344,4 +350,14 @@ position:relative;
 
 input {
     color:white !important;
+}
+
+.uk-button {
+    background:black !important;
+    color:white !important;
+}
+
+.uk-button:hover {
+    background:white !important;
+    color:black !important;
 }
