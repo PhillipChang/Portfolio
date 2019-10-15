@@ -25,7 +25,6 @@ $("#port").on("click", loadPortfolio);
 
 function loadPortfolio(){
   $(".portfolio-cards").empty();
-  console.log("we got here")
   var portfolioArr = [
     pinme = {
       name:"PinME",
@@ -123,7 +122,6 @@ function loadPortfolio(){
     </div>
   </div>`);
   $(".portfolio-cards").append(newCard);
-  console.log("we are here")
     }
   }
 

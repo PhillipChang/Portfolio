@@ -14,7 +14,6 @@ module.exports = function(app){
         var subject = req.body.subject;
         var message = req.body.message;
 
-        console.log(process.env.email)
 // create reusable transporter object using the default SMTP transport
 const transporter = nodemailer.createTransport({
     service: 'gmail',

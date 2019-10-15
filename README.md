@@ -2,31 +2,23 @@
 
 [Phillip Chang Webpage](https://phillipchang.github.io/Portfolio)
 
-### Transition Page
-![Transition](assets/images/transition.gif)
-
-### About Page
-![Index Page Screenshot](assets/images/index-page.PNG)
-
-### Portfolio Page
-![Portfolio Page Screenshot](assets/images/portfolio-page.PNG)
-
-### Contact Page
-![Contact Page Screenshot](assets/images/contact-page.PNG)
+### Website
+![Website](..assets/images/website.gif)
 
 
 ### Description
-Updated portfolio page with mobile responsiveness and fresh CSS stylings and animations.
+Learn a bit more about my coding experience.
 
 # Technologies Used
 * HTML
 * CSS
 * jQuery
+* Ajax
 * Animate CSS
 * Google Fonts
-* Anime.js
-* Materialize
-* LinkedIn Badge
+* Node.js
+* UI Kit
+* NPM Packages -> Nodemailer, body-parser
 
 # Author
 Phillip Chang
